@@ -8,7 +8,6 @@ function App() {
       difficulty: "Hard", 
       category: "Meat", 
       cooktime: 300,
-      liked: false,
       image: "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Cranberry-Orange-Roasted-Turkey_exps41231_CW132792B07_09_1b_RMS.jpg" 
     },
     { 
@@ -16,7 +15,6 @@ function App() {
       difficulty: "Medium", 
       category: "Starch", 
       cooktime: 75,
-      liked: false,
       image: "https://foxeslovelemons.com/wp-content/uploads/2014/11/Old-Fashioned-Bread-Stuffing-720x720.jpg" 
     },
     { 
@@ -24,7 +22,6 @@ function App() {
       difficulty: "Easy", 
       category: "Veggies", 
       cooktime: 30,
-      liked: false,
       image: "https://www.jessicagavin.com/wp-content/uploads/2019/11/sauteed-green-beans-5-1200.jpg" 
     },
     { 
@@ -32,7 +29,6 @@ function App() {
       difficulty: "Medium", 
       category: "Starch", 
       cooktime: 210,
-      liked: false ,
       image: "https://bakingamoment.com/wp-content/uploads/2019/11/IMG_6787-dinner-rolls.jpg"
     },
     { 
@@ -40,7 +36,6 @@ function App() {
       difficulty: "Easy", 
       category: "Starch", 
       cooktime: 45,
-      liked: false,
       image: "https://www.thespruceeats.com/thmb/aV3a6phN-0r_0hsFnrMb5ezHG1g=/3000x3000/smart/filters:no_upscale()/easy-microwave-mashed-potatoes-3059678_hero-01-520a91abceb44719ae5a24a179af8645.jpg"  
     },
     { 
@@ -48,7 +43,6 @@ function App() {
       difficulty: "Easy", 
       category: "Veggies", 
       cooktime: 20,
-      liked: false,
       image: "https://foxeslovelemons.com/wp-content/uploads/2017/11/Really-Good-Thanksgiving-Salad-2-720x720.jpg"  
     },
     { 
@@ -56,7 +50,6 @@ function App() {
       difficulty: "Easy", 
       category: "Veggies", 
       cooktime: 40,
-      liked: false,
       image: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190808-vegetable-medley-0039-landscape-pf-1567108247.jpg?crop=0.536xw:0.804xh;0.216xw,0.0893xh&resize=480:*" 
     },
     { 
@@ -64,7 +57,6 @@ function App() {
       difficulty: "Medium", 
       category: "Dessert", 
       cooktime: 90,
-      liked: false,
       image: "https://res.cloudinary.com/hksqkdlah/image/upload/ar_1:1,c_fill,dpr_2.0,f_auto,fl_lossy.progressive.strip_profile,g_faces:auto,q_auto:low,w_344/25022_sfs-sweet-potato-casserole-4" 
     },
     { 
@@ -72,7 +64,6 @@ function App() {
       difficulty: "Medium", 
       category: "Dessert", 
       cooktime: 120,
-      liked: false,
       image: "https://storcpdkenticomedia.blob.core.windows.net/media/recipemanagementsystem/media/recipe-media-files/recipes/retail/x17/2020_df_retail_blue-ribbon-apple-pie_16800_600x600.jpg?ext=.jpg" 
     },
     { 
@@ -80,7 +71,6 @@ function App() {
       difficulty: "Hard", 
       category: "Dessert", 
       cooktime: 80,
-      liked: false,
       image: "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Triple-Berry-No-Bake-Cheesecake_EXPS_TOHcom19_138951_B01_30_6b.jpg" 
     },
     { 
@@ -88,7 +78,6 @@ function App() {
       difficulty: "Medium", 
       category: "Starch", 
       cooktime: 70,
-      liked: false,
       image: "https://www.africanbites.com/wp-content/uploads/2018/03/IMG_9302-650x650.jpg" 
     },
     { 
@@ -96,7 +85,6 @@ function App() {
       difficulty: "Medium", 
       category: "Meat", 
       cooktime: 240,
-      liked: false,
       image: "https://s23209.pcdn.co/wp-content/uploads/2019/12/Maple-Glazed-HamIMG_1018-360x360.jpg" 
     }
    ]
