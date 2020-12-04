@@ -12,7 +12,7 @@ export default class DisplayComponents extends Component {
         };
     }
 
-    addToPlanner = item => {
+    addToMenu = item => {
         if (!this.state.aggregator.includes(item)) {
             var newAggregator = this.state.aggregator.concat(item);
         
@@ -37,11 +37,11 @@ export default class DisplayComponents extends Component {
         return (
             <Row>
                 <Col sm={8}>
-                    <DisplayList list={this.props.list} addfun={this.addToPlanner}/>
+                    <DisplayList list={this.props.list} addfun={this.addToMenu}/>
                 </Col>
                 <Col sm={4}>
                 <br />
-                    <DisplayAggregator list={this.state.aggregator} remfun={this.removeFromPlanner}/>
+                    <DisplayAggregator list={this.state.aggregator} remfun={this.removeFromMenu}/>
                 </Col> 
             </Row>)
     }

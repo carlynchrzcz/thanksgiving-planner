@@ -126,12 +126,12 @@ export default class FilteredList extends Component {
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link eventKey="Cook Time: Lowest to Highest" onSelect={this.onSelectSort}>
-                        Lowest to Highest
+                        Low to High
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link eventKey="Cook Time: Highest to Lowest" onSelect={this.onSelectSort}>
-                        Highest to Lowest
+                        High to Low
                     </Nav.Link>
                 </Nav.Item>
             </Nav>
