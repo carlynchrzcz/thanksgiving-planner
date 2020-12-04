@@ -17,9 +17,13 @@ FilteredList.
 ### FilteredList
 
 FilteredList does the filtering and the sorting of the total recipe list 
-passed down from App.js.
+passed down from App.js. In the state, it keeps track of the filtering and sorting conditions, with variables difficulty (what difficulty level to display, default "All"), category (what food categories to display, default "All"), and sort (what to sort by, defaulted to no sorting).
 
-FINISH
+This component makes three navbars, one for users to filter by difficulty, one for users to filter by category, and one for users to choose a sorting condition. When a link is clicked on one of these navbars, a function is called that updates the respective state variable to be the new selected condition. 
+
+This component creates a DisplayComponent, passing down the total recipe list filtered and sorted according to the variables values in the current state.
+
+Changing the state by clicking a link triggers a rerender, so the items are resorted/filtered and rerendered every time the condition for sorting or filtering by any property is changed. 
 
 ### DisplayComponents
 
