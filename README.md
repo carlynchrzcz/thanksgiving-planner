@@ -6,22 +6,22 @@ The following is an explanation of the organization of the components of my code
 
 ### App.js
 
-The html begins App.js, which defines the total list of 
-recipes and their fields (name - the item name, difficulty - 
+The html begins App.js, which defines the total list of food
+items and their fields (name - the item name, difficulty - 
 the difficulty to prepare the item, category - the category of 
 food of the item, cooktime - the time it takes to cook, and 
 image - an image of the item). App.js displays the title and subtitle 
-of the page and then passes the list of recipes to the component 
+of the page and then passes the list of food items to the component 
 FilteredList.
 
 ### FilteredList
 
-FilteredList does the filtering and the sorting of the total recipe list 
+FilteredList does the filtering and the sorting of the total food item list 
 passed down from App.js. In the state, it keeps track of the filtering and sorting conditions, with variables difficulty (what difficulty level to display, default "All"), category (what food categories to display, default "All"), and sort (what to sort by, defaulted to no sorting).
 
 This component makes three navbars, one for users to filter by difficulty, one for users to filter by category, and one for users to choose a sorting condition. When a link is clicked on one of these navbars, a function is called that updates the respective state variable to be the new selected condition. 
 
-This component also creates a DisplayComponents, passing down the total recipe list filtered and sorted according to the variable's values in the current state.
+This component also creates a DisplayComponents, passing down the total food item list filtered and sorted according to the variable's values in the current state.
 
 Changing the state by clicking a link triggers a rerender, so the items are resorted/filtered and rerendered every time the condition for sorting or filtering by any property is changed. 
 
